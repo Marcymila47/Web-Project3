@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+}
+body{
+    background-color:whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   
+    
+
+}
+.container{
+    
+    /*max-width: 100%;
+
+    
+    margin: 0 auto;
+    display: flex;*/
+   
+  
+
+  
+}
+/*.mainimg{
+    
+    width: 100px;
+    height: 80px;
+  
+   border: 3px solid white;
+   border-radius: 50%;
+   
+   
+   padding: 20px;
+   float: left;
+ 
+}*/
+/*.mainimg{
+    background-color: slateblue;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border-radius: 50%;
+}*/
+
+/*.bio{
+    padding: 20px;
+    float: left;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.bio{
+    background-color:darkgrey;
+    display: flex;
+    justify-content:flex-start;
+    text-align: center;
+    padding: 10px 5px;
+}*/
+.font{
+    background-color:moccasin;
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+
+}
+.font .mainimg{
+   
+  border: 2px solid green;  
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 10px 5px 5px black;
+}
+.font .bio{
+    padding: 20px;
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkgreen;
+}
+.bio:hover{
+    color:darkslateblue ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*.clear{
+    clear:both;
+}
+.line{
+   border: 1px solid green;
+   
+    margin: .5rem;
+    
+}*/
+
+.text{
+    text-align: center;
+    background-color:rebeccapurple;
+    color: whitesmoke;
+    padding: 20px;
+    font-style: italic;
+   
+}
+/*.menu{
+    width: 40%;
+    height: 80px;
+    margin-left:auto;
+    text-align: center;
+    padding: 2% 7%;
+}*/
+.menu{
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 5px;
+    margin: 0 auto;
+}
+
+.menu .menu1 a:hover{
+    text-decoration: underline;
+    background-color:brown;
+    color: cornsilk;
+}
+
+.menu .menu1 a{
+   
+    max-width: 1000%;
+    padding: 10px 5px;
+    float: left;
+  
+   
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:indigo;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.drop{
+    display: inline;
+    position: relative;
+   
+}
+.drop1{
+    position: absolute;
+    display: none;
+    top: 35px;
+    right: 5px;
+    min-width: 100px;
+    background-color:blueviolet;
+    color: beige;
+   
+   
+
+}
+.drop1 a {
+    display: block;
+}
+
+.drop1 a:hover{
+    
+    background-color:darkgreen;
+    
+}
+
+.drop:hover .drop1{
+    display: block;
+}
+
+
+
+.post{
+    text-align: center;
+    padding: 10px;
+    border: 1px blueviolet dotted;
+    color:seagreen;
+    background-color:lavender;
+    box-shadow: 10px 5px 5px black;
+}
+.post:hover{
+    background-color:slateblue;
+    color: snow;
+    font-family: monospace;
+}
+.line1{
+    margin: 1rem;
+    border: .5px solid blue;
+}
+.container1{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.text1{
+    padding: 10px;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+.text1::first-letter{
+   color: darkslategrey;
+   font-size: 1.5rem;
+}
+.mainimg1{
+  max-width: 100%;
+  opacity: 0.5; 
+}
+.mainimg1:hover{
+    opacity: 1;
+}
+.pcredit{
+    text-align: center;
+   font-style: italic;
+   padding: 10px;
+}
+
+.post1:hover{
+    background-color:mediumseagreen;
+}
+.post2:hover{
+    background-color:darkolivegreen;
+}
+.line2{
+    margin: 1rem;
+
+   border: 1px solid green;
+}
+.line3{
+    margin: 1rem;
+    border: .5px solid yellow;
+}
+.mainimg2{
+    width: 100%;
+    opacity: 0.5;
+    
+   
+}
+.mainimg2:hover{
+
+    opacity: 1;
+}
+.text2{
+    padding: 10px;
+    margin: 2px;
+    
+}
+.text2::first-letter{
+    color: lightseagreen;
+    font-size: 1.5rem;
+}
+.text3::first-letter{
+    color: maroon;
+    font-size: 1.5rem;
+   
+}
+.text3{
+    padding: 10px;
+    margin: 2px;
+
+}
+.line4{
+   
+    margin: 1rem;
+    border: .5px solid blueviolet;
+}
+.post3:hover{
+    background-color: cornflowerblue;
+}
+.text4{
+    padding: 10px;
+    margin: 2px;
+
+}
+.text4::first-letter{
+    
+    color:plum;
+    font-size: 1.5rem;
+   
+}
+.line5{
+   
+    margin: 1rem;
+    border: .5px solid greenyellow;
+}
+.post4:hover{
+    background-color:orangered;
+}
+.text5{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text5::first-letter{
+    color:seagreen;
+    font-size: 1.5rem;
+}
+
+.line6{
+   
+    margin: 1rem;
+    border: .5px solid rebeccapurple;
+}
+.post5:hover{
+    background-color:royalblue;
+}
+.text6{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text6::first-letter{
+    color:sienna;
+    font-size: 1.5rem;
+}
+
+.line7{
+   
+    margin: 1rem;
+    border: .5px solid brown;
+}
+.post6:hover{
+    background-color:silver;
+}
+.text7{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text7::first-letter{
+    color:peru;
+    font-size: 1.5rem;
+}
+
+.line8{
+   
+    margin: 1rem;
+    border: .5px solid darkmagenta;
+}
+.post7:hover{
+    background-color:darkslategray;
+}
+.text8{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text8::first-letter{
+    color:purple;
+    font-size: 1.5rem;
+}
+
+.line9{
+   
+    margin: 1rem;
+    border: .5px solid turquoise;
+}
+.post8:hover{
+    background-color:indigo;
+}
+.text9{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text9::first-letter{
+    color:navy;
+    font-size: 1.5rem;
+}
+
+.line10{
+   
+    margin: 1rem;
+    border: .5px solid orchid;
+}
+.post9:hover{
+    background-color:mediumvioletred;
+}
+.text10{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text10::first-letter{
+    color:mediumblue;
+    font-size: 1.5rem;
+}
+
+.line11{
+   
+    margin: 1rem;
+    border: .5px solid aqua;
+}
+.post10:hover{
+    background-color:darkcyan;
+}
+.text11{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text11::first-letter{
+    color:deeppink;
+    font-size: 1.5rem;
+}
+
+.clear1{
+    clear: both;
+}
+
+
+
+.foot{
+    display: flex;
+    margin: 0 auto;
+    background-color:green;
+    text-align: center;    
+    padding: 20px;    
+    
+
+}
+.foot h2{
+    margin:35px 10px;
+    font-family: sans-serif;
+    text-shadow: 2px 3px 5px white;
+    
+}
+
+.line13{
+    margin: 1rem;
+    border: .5px solid wheat;
+}
+
+
+
+
+.foot a{
+    color:honeydew;     
+    margin: 20px;
+    padding: 20px;
+    font-family: cursive;
+    text-shadow: 2px 3px 5px black;
+}
+
+
+.margin{
+    margin: 0 auto;
+    padding: 4px;
+    background-color:limegreen;
+    
+}
+
+.socal{
+    text-align: center;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    grid-template-areas: 's';
+   
+}
+#btn{
+    grid-area: b1;
+}
+#btn1{
+    grid-area: b2;
+}
+.socal1{
+     grid-area: s;
+     width: 100%;
+     height: 100%;
+     display: grid;
+     grid-template-areas: 
+     'b1    b2'
+     ;
+     
+    
+              padding: 10px 5px;  
+               font-size: 2rem;
+              
+           
+}
+/*.btn{
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 5px;
+    border-radius: 5px;
+    display: inline-flexbox;
+   
+  
+}
+.btn1{
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 5px;
+    border-radius: 5px;
+ 
+    
+}*/
+@media screen and (max-width: 600px) {
+   
+    .font{
+        flex-direction: column;
+        background-color:yellowgreen;
+        color: cornsilk;
+        
+        
+       
+        
+        
+    }
+    .font .mainimg{
+        border: 2px solid indigo;  
+        border-radius: 30%;
+        padding: 20px;
+        height: 150px;
+        width: 300px;
+        margin: 0 auto;
+        box-shadow: 10px 5px 5px 5px green;
+        
+    }
+    .font .bio{
+        color:blueviolet;
+        margin: 0 auto;
+
+    }
+    .menu{
+        flex-direction:row;
+        justify-content:center;
+        padding: 20px 10px;
+        margin: 0 auto;
+        font-family: monospace;
+    }
+  
+    .drop1{
+        background-color: aliceblue;
+        top:0px;
+        right:0px;
+        
+       
+   
+     
+    }
+    .drop:hover .drop1{
+        display: block;
+    
+        position: relative;
+    }
+    
+    .menu .menu1 a{
+        background-color:forestgreen;
+        margin: 0 auto;
+        color: snow;
+        text-align: center;
+        border-radius: 40px;
+        padding: 10px 15px ;
+        justify-content: center;
+      
+        
+    }
+    .foot{
+       
+        flex-direction:column;
+     
+
+    }
+    .foot h2{
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+   .text{
+       position: inherit;
+   }
+  
+    
+}
+
+
+
+
+
